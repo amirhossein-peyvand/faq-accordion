@@ -1,6 +1,6 @@
 import "./sass/App.scss";
 import mobileBg from "./assets/background-pattern-mobile.svg";
-import Card from "./compnents/Card";
+import Card from "./components/Card";
 
 function App() {
   return (

@@ -13,15 +13,11 @@ const QuestionAnswer = ({ answer, question }: Props) => {
 
   return (
     <section className="qa">
-      <div className="top">
+      <button className="top" onClick={() => setExtended(!extended)}>
         <h4>{question}</h4>
-        <img
-          src={extended ? minues : plus}
-          alt="img"
-          onClick={() => setExtended(!extended)}
-        />
-      </div>
-      <p className="answer">{answer}</p>
+        <img src={extended ? minues : plus} alt="img" />
+      </button>
+      {extended && <p className="answer">{answer}</p>}
     </section>
   );
 };

@@ -1,6 +1,7 @@
 @import "colors.scss";
 
 .app {
+  min-width: 20rem;
   background-color: $light-pink;
   min-height: 100vh;
   position: relative;

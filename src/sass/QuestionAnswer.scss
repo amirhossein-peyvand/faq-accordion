@@ -2,28 +2,40 @@
 
 .qa {
   .top {
-    display: flex;
     align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
     justify-content: space-between;
     margin-bottom: 1.4rem;
+    width: 100%;
 
     h4 {
       color: $dark-purple;
       letter-spacing: 0.3px;
+      text-align: left;
+      font-size: 1.1rem;
     }
 
     img {
-      cursor: pointer;
       width: 2.5rem;
+    }
+  }
+
+  .top:hover,
+  .top:focus {
+    h4 {
+      color: rgb(186, 19, 186);
     }
   }
 
   .answer {
     color: $grayish-purple;
-    font-weight: 600;
+    // font-weight: 600;
     opacity: 0.8;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.3px;
     word-spacing: 0.5px;
-    line-height: 1.4;
+    line-height: 1.5;
   }
 }
