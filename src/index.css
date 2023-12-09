@@ -11,13 +11,6 @@ html {
   font-size: 62.5%;
 }
 
-body {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
-}
-
 #root {
   width: 100%;
 }
