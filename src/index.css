@@ -11,6 +11,11 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  min-height: 100vh;
+  background-color: hsl(275, 100%, 97%);
+}
+
 #root {
   width: 100%;
 }
